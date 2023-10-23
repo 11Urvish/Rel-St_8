@@ -1,0 +1,36 @@
+{
+	"api": {
+		"errors": {
+			"SomeThingWentWrong": "Something went wrong",
+			"UnAuthorizedRequest": "Unauthorized Request",
+			"UserFirstNameRequired": "api.errors.UserFirstNameRequired",
+			"ApiFailed": "api.errors.ApiFailed",
+			"LoginFailed": "api.errors.LoginFailed",
+			"EmailNotRegister": "api.errors.EmailNotRegister",
+			"LoginInvalidValue": "api.errors.LoginInvalidValue",
+			"ContentNotFound": "api.errors.ContentNotFound",
+			"UserPhoneNoMaxLengthRequired": "api.errors.UserPhoneNoMaxLengthRequired",
+			"UserPhoneNoMinLengthRequired": "api.errors.UserPhoneNoMinLengthRequired",
+			"UserFullNameMinLengthRequired": "api.errors.UserFullNameMinLengthRequired",
+			"ExistUser": "api.errors.ExistUser",
+			"UserFullNameRequired": "api.errors.UserFullNameRequired",
+			"UserFullNameMaxLengthRequired": "api.errors.UserFullNameMaxLengthRequired"
+		},
+		"msg": {
+			"APISuccess": "Success",
+			"LoginSuccess": "You have successfully Login!",
+			"IncorrectPassword": "You have entered Incorrect Password!",
+			"EmailNotRegistered": "This email is not registered with us!",
+			"ChangePasswordSuccess": "Your password changed successfully!",
+			"Success": "Opration Successful",
+			"CreateUser": "api.msg.CreateUser",
+			"GetIcon": "api.msg.GetIcon",
+			"Login": "api.msg.Login",
+			"GetCandidate": "api.msg.GetCandidate",
+			"UpdateUser": "api.msg.UpdateUser",
+			"DeleteAdmin": "api.msg.DeleteAdmin",
+			"Login successful": "api.msg.Login successful",
+			"DeleteFloor": "api.msg.DeleteFloor"
+		}
+	}
+}

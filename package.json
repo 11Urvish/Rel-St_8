@@ -1,0 +1,29 @@
+{
+  "name": "admin_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bin/www.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc && node dist/bin/www.js",
+    "start": "./node_modules/nodemon/bin/nodemon.js -e ts --exec \"npm run compile\"",
+    "sonar": "sonar-scanner"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express-validator": "^7.0.1",
+    "i18n": "^0.15.1",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.3.5",
+    "nodemon": "^2.0.22",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.32.0",
+    "swagger-ui-express": "^4.6.3",
+    "typescript": "^5.1.3"
+  }
+}
